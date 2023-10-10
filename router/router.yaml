@@ -51,6 +51,9 @@ authorization:
 coprocessor:
   url: https://coprocessor-wn3vwa6nlq-ue.a.run.app 
   timeout: 2s 
+  router:
+    response:
+      body: true
 
 preview_persisted_queries:
   enabled: true
@@ -59,8 +62,4 @@ preview_persisted_queries:
     require_id: false
 apq:
   enabled: false
-
-  router:
-    response:
-      body: true
 
